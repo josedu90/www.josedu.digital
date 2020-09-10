@@ -8,6 +8,8 @@ cv.josedu.digital
 cv2.josedu.digital
 
 [production:children]
-165.227.194.141
+josedu.digital
+cv.josedu.digital
+cv2.josedu.digital
 
 
