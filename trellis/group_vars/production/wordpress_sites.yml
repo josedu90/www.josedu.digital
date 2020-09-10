@@ -26,10 +26,6 @@ wordpress_sites:
       enabled: true
     env:
       domain_current_site: josedu.digital
-      
-
-
-
 
   cv.josedu.digital:
     site_hosts:

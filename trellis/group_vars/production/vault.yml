@@ -29,14 +29,14 @@ vault_wordpress_sites:
     env:
       db_password: bellavista
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "gUAsT4U@#N),B.D:Nsnz<Ty/[i(4KX1:{vf@6-DIrK[a`(q#e!Q3[1ZL{Yeckg.:"
-      secure_auth_key: "Q,S.6zVF%)7fTqED^Ho9GxLehf0vj^=n>3gb5/72bT;E;QW#tQQe9)-Qq;u<JO}9"
-      logged_in_key: "#OtzbZ(`U}Zhc]pqAri2HBem:.5$d`/;IYsmQX=r0g<zQ.]r;,^{%ihC$z&c:5ty"
-      nonce_key: "$o4DWyY@izIi6H/G(-YHg$_e3>P&nbheY%J4MXYq3Jcc=Q(?:enD9`yLpMK!$.hI"
-      auth_salt: "3RJb`s$kd}Ls)Tn2=i2q7V*wp3JDJfZGt;mW9[ip4pbbkPU@*Foly*%C0(J*OhZJ"
-      secure_auth_salt: "sZ?AqM3M8;cq,>>YyKcxExiyx9M@!Wf)=o[;Mfv.Y(Gh]Obk6@t9KrG0/p?m4+.i"
-      logged_in_salt: "eR(>^0@GzLgby<h4bTI>#x}s.4FE:qwu&^jV[3Y|-5rN(YGX[yE$Fut1M2!-aBTs"
-      nonce_salt: "mCpLLCwS;81;IGN2?^;2,#bHhXmIS1T{&<qeHI[t`Fq$Y`L?n/I6}0uQfqfSKFN?"
+      auth_key: "YUgT<sxREUiz>Z5B<+6}I#KXo`5h/($S+Ar9m^)dWbV]sU6BxB!a6.B#vQs3X?m-"
+      secure_auth_key: "B/)L*%I6/R692J2fx{y9>7kfA#_Z#?Q{VdPf(,Mj`s.GZk?[R2(1Cc?:%dd65-Yo"
+      logged_in_key: "/7vd&/I(.!iaui,suU{K_^E_haZ>+gf5jWhX&5`b:m{8gs*%9V7j+BgCEgz=Q|al"
+      nonce_key: "Ye+@`W`WrPe/?<zW!<zPg)F$PjjpYiFX]>viLs?n#$`2MA+TtY[E7{dod]ci05&f"
+      auth_salt: "Ji:V+!,]OW!W1Gm85LsSQbnCeY7GL#7gm0F==5r[U$W+N)M#B>hz,rz:ODZg)rN_"
+      secure_auth_salt: "1F;L_r{}yrL1ZCre]8qwX_DINT1!x>sXu%eK[.gFA6YpfJN3o$V383vUd<{#4%=H"
+      logged_in_salt: "o8*Shr41bsC^vouU`)(QueZ&(#|$}d7L*TG2E!L(5vY$h%i6I3/5jXZQKa5=B6t_"
+      nonce_salt: "v1Hq1M*u6[D>;gSTt+snpwOB/2Z.QFd1gEe+%WZ9Q._{LAhdlu}zu)Ft-A;E?nQ["
       
 
 
@@ -44,11 +44,11 @@ vault_wordpress_sites:
     env:
       db_password: bellavista
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "gUAsT4U@#N),B.D:Nsnz<Ty/[i(4KX1:{vf@6-DIrK[a`(q#e!Q3[1ZL{Yeckg.:"
-      secure_auth_key: "Q,S.6zVF%)7fTqED^Ho9GxLehf0vj^=n>3gb5/72bT;E;QW#tQQe9)-Qq;u<JO}9"
-      logged_in_key: "#OtzbZ(`U}Zhc]pqAri2HBem:.5$d`/;IYsmQX=r0g<zQ.]r;,^{%ihC$z&c:5ty"
-      nonce_key: "$o4DWyY@izIi6H/G(-YHg$_e3>P&nbheY%J4MXYq3Jcc=Q(?:enD9`yLpMK!$.hI"
-      auth_salt: "3RJb`s$kd}Ls)Tn2=i2q7V*wp3JDJfZGt;mW9[ip4pbbkPU@*Foly*%C0(J*OhZJ"
-      secure_auth_salt: "sZ?AqM3M8;cq,>>YyKcxExiyx9M@!Wf)=o[;Mfv.Y(Gh]Obk6@t9KrG0/p?m4+.i"
-      logged_in_salt: "eR(>^0@GzLgby<h4bTI>#x}s.4FE:qwu&^jV[3Y|-5rN(YGX[yE$Fut1M2!-aBTs"
-      nonce_salt: "mCpLLCwS;81;IGN2?^;2,#bHhXmIS1T{&<qeHI[t`Fq$Y`L?n/I6}0uQfqfSKFN?"    
+      auth_key: ".hd7U#H?Y|/PXT9r5mq!QIVX<4*/>`-yS-2PPW0k}8f(P#Y#|ZZTI2GfHLWZi`as"
+      secure_auth_key: "=cw40cM.jXElc)+q_Yk|0jQf9H!N0LteOq-=M+lp7II&pa3*&1@4`H[cYW)%8H&r"
+      logged_in_key: "uo}{n(S1n5JABp_ByXpppo0Q/X{F@{kU*Kl4HK/}{Ml@4GHVo0J?L#ndP(`]9r4{"
+      nonce_key: "$H5a<XytlO,2hMjv*-|tX.Hl92oxa$hw4ci1*s(oFx}GB#wsF:NJIK#+8lDf7t37"
+      auth_salt: "ZP&6oc+607^jSoa][>n?>hGDlg}7rFJ,<M?WdXt*#+A.fu6+EK.qEWMd]TP[<tYj"
+      secure_auth_salt: "/w|&.=7^fWj3x6@:u]GUas.GNt*4AJKn-*0F}(NEY^e5@htyw*<|69E_Qwfcv/ss"
+      logged_in_salt: "UDP=<gTrgll,91#/}:5d|4C:vgp0T}+Z#/vfbclHYu,Nzvu9>,FD%Mg&Ei1chv2d"
+      nonce_salt: ")w7v08L?oQ/M.IMX@9inzDP>*Oow|GEgDS9,?(m65[=[/!fq3H,Wl,&RwLNg90}W"
