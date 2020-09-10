@@ -6,5 +6,7 @@
 165.227.194.141
 
 [production:children]
-web
+josedu.digital
+cv.josedu.digital
+cv2.josedu.digital
 
