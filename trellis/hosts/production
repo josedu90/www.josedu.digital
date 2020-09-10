@@ -2,9 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-167.99.12.110
+josedu.digital
 
 [web]
-josedu.digital
-cv.josedu.digital
-cv2.josedu.digital
+167.99.12.110
