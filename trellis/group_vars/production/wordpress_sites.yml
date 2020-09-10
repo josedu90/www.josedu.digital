@@ -55,7 +55,7 @@ wordpress_sites:
       domain_current_site: cv.josedu.digital
 
 
-  cv.josedu.digital:
+  cv2.josedu.digital:
     site_hosts:
       - canonical: www.cv2.josedu.digital
         redirects:
