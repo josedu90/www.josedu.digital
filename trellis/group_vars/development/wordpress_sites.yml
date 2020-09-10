@@ -1,0 +1,54 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  josedu.digital:
+    site_hosts:
+      - canonical: josedu.test
+        redirects:
+          - www.josedu.test
+    local_path: ../josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@josedu.digital
+    multisite:
+      enabled: false
+      subdomains: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+    env:
+      domain_current_site: josedu.test
+
+  cv.josedu.digital:
+    site_hosts:
+      - canonical: cv.josedu.test
+    local_path: ../cv.josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@cv.josedu.digital
+    multisite:
+      enabled: false
+      subdomains: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+    env:
+      domain_current_site: cv.josedu.test
+
+  cv2.josedu.digital:
+    site_hosts:
+      - canonical: cv2.josedu.test
+    local_path: ../cv2.josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@cv2.josedu.digital
+    multisite:
+      enabled: false
+      subdomains: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+    env:
+      domain_current_site: cv2.josedu.test

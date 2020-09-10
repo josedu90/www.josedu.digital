@@ -1,0 +1,79 @@
+# Documentation: https://roots.io/trellis/docs/remote-server-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/production/vault.yml
+
+wordpress_sites:
+  josedu.digital:
+    site_hosts:
+      - canonical: www.josedu.digital
+        redirects:
+          - josedu.digital
+    local_path: ../josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:josedu90/www.josedu.digital.git # replace with your Git repo URL
+    repo_subtree_path: josedu.digital # relative path to your Bedrock/WP directory in your repo
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      # SSL must be enabled
+      enabled: true
+      # OCSP stapling must be disabled
+      stapling_enabled: false
+      # Use this role to generate Cloudflare Origin CA certificate
+      provider: cloudflare-origin-ca
+    cache:
+      enabled: true
+    env:
+      domain_current_site: josedu.digital
+
+
+
+
+  cv.josedu.digital:
+    site_hosts:
+      - canonical: www.cv.josedu.digital
+        redirects:
+          - cv.josedu.digital
+    local_path: ../cv.josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:josedu90/www.cv.josedu.digital.git # replace with your Git repo URL
+    repo_subtree_path: cv.josedu.digital # relative path to your Bedrock/WP directory in your repo
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      # SSL must be enabled
+      enabled: true
+      # OCSP stapling must be disabled
+      stapling_enabled: false
+      # Use this role to generate Cloudflare Origin CA certificate
+      provider: cloudflare-origin-ca
+    cache:
+      enabled: true
+    env:
+      domain_current_site: cv.josedu.digital
+
+
+  cv.josedu.digital:
+    site_hosts:
+      - canonical: www.cv2.josedu.digital
+        redirects:
+          - cv2.josedu.digital
+    local_path: ../cv2.josedu.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:josedu90/www.cv2.josedu.digital.git # replace with your Git repo URL
+    repo_subtree_path: cv2.josedu.digital # relative path to your Bedrock/WP directory in your repo
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      # SSL must be enabled
+      enabled: true
+      # OCSP stapling must be disabled
+      stapling_enabled: false
+      # Use this role to generate Cloudflare Origin CA certificate
+      provider: cloudflare-origin-ca
+    cache:
+      enabled: true
+    env:
+      domain_current_site: cv2.josedu.digital
+
+
