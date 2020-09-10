@@ -3,7 +3,8 @@
 
 
 [web]
-165.227.194.141
+cv.josedu.digital
+cv2.josedu.digital
 
 [production:children]
 web
