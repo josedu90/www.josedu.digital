@@ -3,8 +3,8 @@
 
 
 [web]
-cv.josedu.digital
-cv2.josedu.digital
+165.227.194.141
 
-[production:children]
-web
+[production]
+165.227.194.141
+
