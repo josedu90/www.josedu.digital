@@ -38,7 +38,7 @@ wordpress_sites:
     repo_subtree_path: cv.josedu.digital # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
-      enabled: false
+      enabled: true
     ssl:
       # SSL must be enabled
       enabled: true
@@ -63,7 +63,7 @@ wordpress_sites:
     repo_subtree_path: cv2.josedu.digital # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
-      enabled: false
+      enabled: true
     ssl:
       # SSL must be enabled
       enabled: true
